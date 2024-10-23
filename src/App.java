@@ -4,7 +4,7 @@ public class App {
 	{
 		Medienbibliothek bib = new Medienbibliothek();
 		
-		VHS heman = new VHS("He-Man and the Masters of the Universe", 120.99, "B�ro, UG", 120, "Ausgezeichnet");
+		VHS heman = new VHS("He-Man and the Masters of the Universe", 120.99, "Büro, UG", 120, "Ausgezeichnet");
 		Cartridge zeldaGold = new Cartridge("The Adventures of Zelda", 300.00, "Keller, UG", true, "Nintendo", Konsolentyp.NES);
 		Buch herr = new Buch("Herr der Ringe", 49.99, "Wohnzimmer, OG", "1234565432123");
 		

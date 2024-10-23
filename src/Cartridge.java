@@ -37,7 +37,7 @@ public class Cartridge extends Medium {
 		this.konsole = konsole;
 	}
 	
-	public void anzeigen() //�berschreiben der Mutterklassenmethode
+	public void anzeigen() //Überschreiben der Mutterklassenmethode
 	{
 		super.anzeigen();
 		System.out.println("[Cartridge] Ist das Set vollst�ndig? -> " + this.isVollständigesSet() + " Entwicklerstudio -> " + this.getEntwicklerstudio() + " Konsolentyp -> " + this.getKonsole());
